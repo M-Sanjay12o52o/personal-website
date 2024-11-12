@@ -38,7 +38,7 @@ export default function Home() {
       <div className="flex flex-row gap-4 mt-8 pt-4">
         <Image
           priority
-          className="cursor-pointer"
+          className="cursor-pointer hover:scale-110"
           src='/social/twitter-x.svg'
           height={50}
           width={50}
@@ -47,7 +47,7 @@ export default function Home() {
         />
         <Image
           priority
-          className="cursor-pointer"
+          className="cursor-pointer hover:scale-110"
           src='/social/discord-icon.svg'
           height={50}
           width={50}
@@ -56,7 +56,7 @@ export default function Home() {
         />
         <Image
           priority
-          className="cursor-pointer"
+          className="cursor-pointer hover:scale-110"
           src='/social/github.svg'
           height={50}
           width={50}
@@ -65,7 +65,7 @@ export default function Home() {
         />
         <Image
           priority
-          className="cursor-pointer"
+          className="cursor-pointer hover:scale-110"
           src='/social/mail.svg'
           height={50}
           width={50}
@@ -75,7 +75,7 @@ export default function Home() {
         />
         <Image
           priority
-          className="cursor-pointer"
+          className="cursor-pointer hover:scale-110"
           src='/social/resume.svg'
           height={50}
           width={50}
