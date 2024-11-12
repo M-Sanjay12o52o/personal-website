@@ -1,4 +1,5 @@
 import ProjectCard from '@/components/ProjectCard'
+import Link from 'next/link'
 import { FC } from 'react'
 
 interface ProjectsPageProps {
@@ -24,6 +25,11 @@ const ProjectsPage: FC<ProjectsPageProps> = ({ }) => {
     ]
 
     return <div className='flex flex-col items-center justify-center h-screen w-screen bg-gray-100'>
+        <div className="mb-4">
+            <Link href={"/"} className="text-gray-700 hover:text-blue-500 px-4">Home</Link>
+            <Link href={"/blogs"} className="text-gray-700 hover:text-blue-500 px-4">Blogs</Link>
+            <Link href={"/about"} className="text-gray-700 hover:text-blue-500 px-4">About</Link>
+        </div>
         <header>
 
         </header>
