@@ -33,7 +33,7 @@ export default function Home() {
         animate={{ opacity: 1 }}
         transition={{ duration: 10 }}
         className="text-base md:text-lg text-gray-600 mt-4">
-        I'm passionate about building beautiful and functional web experiences.
+        {/* I'm passionate about building beautiful and functional web experiences. */}
       </motion.h3>
       <div className="flex flex-row gap-4 mt-8 pt-4">
         <Image
